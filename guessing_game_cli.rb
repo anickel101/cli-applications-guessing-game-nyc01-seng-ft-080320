@@ -3,6 +3,7 @@ def run_guessing_game
   prompt_user
   if comp_num == get_input
     puts "You guessed the correct number!"
+  elsif comp_num != 
 end
 
 def prompt_user
