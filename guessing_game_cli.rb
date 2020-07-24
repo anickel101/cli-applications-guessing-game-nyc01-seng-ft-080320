@@ -4,7 +4,6 @@ def run_guessing_game
   comp_num = rand(1..6)
   prompt_user
   user_num = get_input.to_i
-  binding.pry
   if comp_num == user_num
     puts "You guessed the correct number!"
   elsif user_num === 0
