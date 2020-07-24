@@ -1,9 +1,13 @@
 def run_guessing_game
   comp_num = rand(1..6)
   prompt_user
-  if comp_num == get_input
+  user_num = get_input
+  if comp_num == user_num
     puts "You guessed the correct number!"
-  elsif comp_num != 
+  elsif user_num === "exit"
+    puts "Goodbye!"
+  elsif comp_num != user_num
+    puts "Sorry! The computer guessed #{comp_num}."
 end
 
 def prompt_user
