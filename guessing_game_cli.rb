@@ -8,6 +8,7 @@ def run_guessing_game
     puts "Goodbye!"
   elsif comp_num != user_num
     puts "Sorry! The computer guessed #{comp_num}."
+  end
 end
 
 def prompt_user
