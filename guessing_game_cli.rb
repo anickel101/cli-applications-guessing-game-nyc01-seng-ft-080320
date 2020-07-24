@@ -1,7 +1,7 @@
 require 'pry'
 
 def run_guessing_game
-  comp_num = rand(5)+1
+  comp_num = rand(5) + 1
   prompt_user
   user_num = get_input.to_i
   if comp_num == user_num
