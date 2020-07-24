@@ -1,3 +1,5 @@
+require 'pry'
+
 def run_guessing_game
   comp_num = rand(1..6)
   prompt_user
@@ -18,3 +20,5 @@ end
 def get_input
   gets
 end
+
+binding.pry
