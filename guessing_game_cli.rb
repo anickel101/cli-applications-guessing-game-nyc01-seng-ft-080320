@@ -21,5 +21,3 @@ end
 def get_input
   gets
 end
-
-binding.pry
